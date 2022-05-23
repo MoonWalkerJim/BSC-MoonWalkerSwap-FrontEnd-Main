@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://bsc-swap.moonwalker.network',
+        href: 'bsc-moonwalker-swap-gz99tl5z4-cryptocoder50.vercel.app/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://bsc-swap.moonwalker.network',
+        href: 'bsc-moonwalker-swap-gz99tl5z4-cryptocoder50.vercel.app/pool',
       },
     ],
   },
@@ -65,19 +65,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://bsc-info.moonwalker.network',
+        href: 'bsc-swap-info-grte2j46w-cryptocoder50.vercel.app',
       },
       {
         label: 'Tokens',
-        href: 'https://bsc-info.moonwalker.network/tokens',
+        href: 'bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/tokens',
       },
       {
        label: 'Pairs',
-       href: 'https://bsc-info.moonwalker.network/pairs',
+       href: 'bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://bsc-info.moonwalker.network/accounts',
+        href: 'bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/accounts',
       },
     ],
   },
@@ -92,7 +92,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/MoonwalkerSwap',
+        href: 'https://github.com/CryptoCoder50',
       },
       {
         label: 'Docs',
