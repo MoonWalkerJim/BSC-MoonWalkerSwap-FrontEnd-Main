@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://bsc-moonwalker-swap-gz99tl5z4-cryptocoder50.vercel.app/swap',
+        href: 'https://bsc-moonwalker-swap.vercel.app/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://bsc-moonwalker-swap-gz99tl5z4-cryptocoder50.vercel.app/pool',
+        href: 'https://bsc-moonwalker-swap.vercel.app/pool',
       },
     ],
   },
@@ -65,19 +65,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://bsc-swap-info-grte2j46w-cryptocoder50.vercel.app',
+        href: 'https://moon-walker-swap-info-main.vercel.app',
       },
       {
         label: 'Tokens',
-        href: 'https://bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/tokens',
+        href: 'https://moon-walker-swap-info-main.vercel.appp/tokens',
       },
       {
        label: 'Pairs',
-       href: 'https://bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/pairs',
+       href: 'https://moon-walker-swap-info-main.vercel.app/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://bsc-swap-info-grte2j46w-cryptocoder50.vercel.app/accounts',
+        href: 'https://moon-walker-swap-info-main.vercel.app/accounts',
       },
     ],
   },
