@@ -65,13 +65,13 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Pool Staking')}
         </Heading>
-        <CardImage src="/images/moon/wings.svg" alt="wings logo" width={64} height={64} />
+        <CardImage src="https://seeklogo.com/images/B/binance-coin-bnb-logo-CD94CC6D31-seeklogo.com.png" alt="wings logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'DUST to Harvest')}:</Label>
+          <Label>{TranslateString(544, 'VRMC to Harvest')}:</Label>
           <DustHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'DUST in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'VRMC in Wallet')}:</Label>
           <DustWalletBalance />
         </Block>
         <Actions>
@@ -84,7 +84,7 @@ const FarmedStakingCard = () => {
 
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting DUST')
+                ? TranslateString(548, 'Collecting VRMC')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`, {
                     count: balancesWithValue.length,
                   })}
