@@ -103,7 +103,7 @@ const Home: React.FC = () => {
               <Heading as="h1" size="xl" mb="24px" color="text">
                 {TranslateString(576, 'VRMC SWAP')}
               </Heading>
-              <Text>{TranslateString(578, 'The Newest AMM and yield farm on Binance Smart Chain.')}</Text>
+              <Text>{TranslateString(578, 'Swap tokens to VRMC')}</Text>
             </Container>
             <Jet2/>
           </Flex>
