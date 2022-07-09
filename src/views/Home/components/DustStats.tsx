@@ -8,7 +8,7 @@ import { getDustAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
 
 const StyledDustStats = styled(Card)`
-  background-image: url('/images/moon/bg2.svg');
+  background-image: url('https://seeklogo.com/images/B/binance-coin-bnb-logo-CD94CC6D31-seeklogo.com.png');
   background-repeat: no-repeat;
   background-position: bottom right;
   min-height: 376px;
@@ -33,18 +33,18 @@ const DustStats = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(534, "Stats")}
         </Heading>
-        <CardImage src="/images/moon/wings.svg" alt="wings logo" width={64} height={64} />
+        <CardImage src="https://seeklogo.com/images/B/binance-coin-bnb-logo-CD94CC6D31-seeklogo.com.png" alt="wings logo" width={64} height={64} />
         <Block>
           {dustSupply && <CardValue fontSize="36px" value={dustSupply} />}
-          <Text fontSize="14px" color="#808080">{TranslateString(536, "Total DUST Supply")}</Text>
+          <Text fontSize="14px" color="#808080">{TranslateString(536, "Total VRMC Supply")}</Text>
         </Block>
         <Block>
           <CardValue fontSize="36px" decimals={0} value={burnedBalance} />
-          <Text fontSize="14px" color="#808080">{TranslateString(538, "Total DUST Burned")}</Text>
+          <Text fontSize="14px" color="#808080">{TranslateString(538, "Total VRMC Burned")}</Text>
         </Block>
         <Block>
           <CardValue fontSize="36px" decimals={0} value={25} />
-          <Text fontSize="14px" color="#808080">{TranslateString(540, "New DUST/block")}</Text>
+          <Text fontSize="14px" color="#808080">{TranslateString(540, "New VRMC/block")}</Text>
         </Block>
       </CardBody>
     </StyledDustStats>
