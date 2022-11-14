@@ -96,7 +96,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://bsc-docs.moonwalker.network',
+        href: 'https://moonwalkerjim.gitbook.io/bsc-moonwalkerswap-docs/',
       },
       {
         label: 'Blog',
